@@ -85,23 +85,9 @@ nav {
 }
 
 /* Animation  */
-.text-box h1 {
-  animation: moveFromLeft 1s ease-out forwards;
-}
 
 .text-box img {
-  animation: moveFromRight 1s ease-out forwards;
-}
-
-@keyframes moveFromLeft {
-  from {
-    transform: translateX(-100%);
-    opacity: 0;
-  }
-  to {
-    transform: translateX(0);
-    opacity: 1;
-  }
+  animation: moveFromRight 2s ease-out forwards;
 }
 
 @keyframes moveFromRight {
@@ -114,3 +100,61 @@ nav {
     opacity: 1;
   }
 }
+
+/* About us */
+.about-us {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  padding-top: 100px;
+}
+
+.about-us h1 {
+  color: #333333;
+  font-size: 36px;
+  font-family: 'Cabin', sans-serif;
+  font-weight: 600;
+}
+
+.about-us p {
+  color: #333333;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 22px;
+  padding: 10px;
+}
+
+/* car models cards */
+
+/* .car-models {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  padding-top: 100px;
+} */
+
+/* .car-col {
+  flex-basis: 32%;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  position: relative;
+  overflow: hidden;
+}
+
+.car-col img {
+  width: 100%;
+}
+
+.layer {
+  background: transparent;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: 0.5s;
+}
+
+.layer:hover {
+  background: rgba(58, 159, 253, 0.6);
+} */
